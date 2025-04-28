@@ -1,7 +1,30 @@
 body {
   background-color: grey;
 }
- .profile_img img{
-  width: 300px;
+nav li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+main{
+  display: flex;
+}
+header {
+  display: flex;
+}
+.profile_pic {
+  width: 500px;
   height: 300px;
- }
+  border: 1px solid;
+  border-radius: 10px;
+}
+.title {
+  font-size: 2rem;
+     
+} 
+.title li {
+  list-style: none;
+  
+}
