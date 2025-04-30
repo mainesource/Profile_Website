@@ -10,6 +10,9 @@ a {
 
 main{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
 }
 header {
   display: flex;
@@ -27,4 +30,28 @@ header {
 .title li {
   list-style: none;
   
+}
+.background{
+  border: 1px solid;
+  background-color: aqua;
+  flex:auto
+}
+.achievements{
+  border: 1px solid;
+  background-color: yellow;
+  flex: auto;
+}
+.learning{
+  border: 1px dotted blue;
+  color: #ffff;
+  background: green;
+  padding: 1rem;
+}
+.about{
+  border: 4px groove;
+  background: blue;
+  color: #ffff;
+  margin: 3px ;
+  padding: 1rem 1rem;
+  text-align: center;
 }
