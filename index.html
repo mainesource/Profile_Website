@@ -9,9 +9,10 @@
   <title>Corey Robinson | Web Developer</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <nav class="menu">
+  <nav class="nav-bar">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -19,8 +20,10 @@
     </ul>    
   </nav>
   
-  <header>    
-    <img src="dogs_pic.jpg" alt="Dog's Portrait" class="profile_pic">
+  <header>
+    <section>
+      <img src="dogs_pic.jpg" alt="Dog's Portrait" class="profile_pic">
+    </section>    
     <section id="name">
       <div class="title">
         <h1>Corey Robinson</h1>
@@ -32,46 +35,28 @@
       </div>      
     </section>    
   </header>
-
-  <main class="content">
-    <div class="box background">
-      <h2 class="about-me">About Me:</h2>
-      <p>Hello, I'm Corey Robinson from Long Island, New York. I have a passion for all things technical and enjoy sharing my knowledge with others.</p>
-    </div>
-
-    <div class="box achievements">
-      <h2>My Achievements</h2>
+  <main>
+    <section>
+      <h3>My background</h3>
       <ul>
-        <li>Currently pursuing Full Stack Development skills</li>
-        <li>Completed <a href="http://www.py4e.com" target="_blank">Python for Everybody -</a> <a href="https://api.badgr.io/public/collections/b002e669739b44dea887dbefb418e5b4" target="_blank">Badges</a></li>
-        <li>Enrolled in <a href="http://www.wa4e.com" target="_blank">Web Applications for Everybody -</a> <a href="https://api.badgr.io/public/collections/92503f341c1643b8a4d2134fad19779b" target="_blank">Badges</a></li>
+        <li>5+ Months Preparing for Full Stack Development</li>
+        <li>Completed <a href="https://www.py4e.com/" target="_blank">Python for Everbody</a> - <a href="https://api.badgr.io/public/collections/b002e669739b44dea887dbefb418e5b4" target="_blank">Badges</a></li>
+        <li>Working on <a href="https://www.wa4e.com/" target="_blank">Web Applications for Everybody</a> - <a href="https://api.badgr.io/public/collections/92503f341c1643b8a4d2134fad19779b" target="_blank">Badges</a></li>
+        <li>Attend Weekly Web Development Webinar with <a href="https://watch.eliepaul.dev/" target="_blank"> Elie Paul</a> </li>
+        <li><a href="https://mainesource.github.io/Resume/" target="_blank">My Resume</a></li>
       </ul>
-    </div>
-
-    <article class="box learning" >
-      <h1>What I'm Learning</h1>
-      <p>I'm mastering SQL commands including SELECT, INSERT, DELETE, and DROP to build efficient database solutions.</p>
-    </article>
-
-    <section class="box about">
-      <h2>About My Interests</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </section>
 
-    <aside class="box">
-      <h2>My Interests</h2>
-      <ul>
-        <li>Programming</li>
-        <li>Gardening</li>
-        <li>Martial Arts</li>
-        <li>3D Printing</li>
-        <li>Video Games</li>
-      </ul>
-    </aside>
   </main>
+
+  
 
   <footer>
     &copy; 2025 Corey Robinson. All rights reserved.
+    <div class="icon">
+      <a href="https://github.com/mainesource" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
   </footer>
+  <script src="index.js"></script>
 </body>
 </html>
